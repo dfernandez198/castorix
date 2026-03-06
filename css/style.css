@@ -33,21 +33,27 @@ font-weight:bold;
 }
 h2{
 margin-top:60px;
+color:#111;
 }
 
+
 .servicios{
+background:#f5f5f7;
+padding:80px 20px;
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
 }
 
 .card{
-background:#1a1a1a;
+background:white;
 margin:20px;
 padding:30px;
 border-radius:15px;
-width:200px;
+width:220px;
 transition:0.3s;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+color:black;
 }
 
 .card:hover{
